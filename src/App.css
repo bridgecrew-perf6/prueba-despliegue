@@ -1,0 +1,43 @@
+.App {
+  border: 1px solid red;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+.container{
+  padding: 0 20px 0 20px;
+  border: 1px solid blue;
+}
+.div_user{
+  padding: 10px;
+}
+.div_user + .div_user{
+  border-top: 1px solid black;
+}
+
+footer{
+  background-color: #5486e9;
+  color: rgb(94, 4, 179);
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer div{
+  width: 50%;
+  qmargin: 0 auto;
+  qheight: 4em;
+}
+footer h2{
+  text-align: center;
+  margin: 0;
+}
